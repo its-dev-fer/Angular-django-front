@@ -7,7 +7,7 @@ import { map, catchError, tap } from 'rxjs/operators';
 })
 
 export class DjangoApiService {
-  serverURL = 'http://127.0.0.1:8000'
+  serverURL = 'http://178.128.86.237:8000'
   httpOptions = {
     headers: new HttpHeaders({
       'Content-Type':  'application/json'
